@@ -43,3 +43,10 @@ Route::get('/blog', function () {
         "Nama" => $Nama,
     ]);
 });
+
+Route::get('/project', function () {
+    $Nama = "Christian Farrel Tanmel";
+    return view('project', [
+        "Nama" => $Nama,
+    ]);
+});

@@ -11,7 +11,8 @@
     @yield('head')
 </head>
 
-<body class="min-h-screen flex flex-col font-sans text-slate-800 antialiased bg-white">
+<body
+    class="min-h-screen flex flex-col font-sans text-slate-800 antialiased bg-gradient-to-br from-blue-500 to-slate-500">
     @include('partials.navbar')
 
     <main class="grow flex">

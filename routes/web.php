@@ -45,7 +45,7 @@ Route::get('/blog', function () {
 });
 
 Route::get('/project', function () {
-    $Nama = "Christian Farrel Tanmel";
+    $Nama = "Max Verstappen";
     return view('project', [
         "Nama" => $Nama,
     ]);
